@@ -2,6 +2,7 @@ import express from "express";
 import winston from "winston";
 import path from "path";
 import { promises } from "fs";
+import { errors } from "celebrate";
 
 import products from "./routes/products.js";
 
@@ -30,6 +31,8 @@ app.get("/", function (req, res) {
   res.redirect("/products");
 });
 app.use("/products", products);
+
+app.use(errors());
 
 app.listen(3000, async () => {
   try {
