@@ -1,6 +1,12 @@
 {
-  "nextID": 7,
+  "nextID": 6,
   "products": [
+    {
+      "id": 1,
+      "description": "Arroz parboilizado 5Kg",
+      "value": 25.0,
+      "brand": "Tio João"
+    },
     {
       "id": 2,
       "description": "Maionese 250gr",
@@ -19,13 +25,6 @@
       "value": 15.2,
       "brand": "Chipps"
     },
-    { "id": 5, "description": "Nescau 400gr", "value": 8, "brand": "Nestlé" },
-    {
-      "id": 6,
-      "description": "Feijon parboilizado 5Kg",
-      "value": 45,
-      "brand": "Tio João 55",
-      "timestamp": "2023-04-20T22:37:09.735Z"
-    }
+    { "id": 5, "description": "Nescau 400gr", "value": 8.0, "brand": "Nestlé" }
   ]
 }
