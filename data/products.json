@@ -1,0 +1,31 @@
+{
+  "nextID": 7,
+  "products": [
+    {
+      "id": 2,
+      "description": "Maionese 250gr",
+      "value": 7.2,
+      "brand": "Helmans"
+    },
+    {
+      "id": 3,
+      "description": "Iogurte Natural 200ml",
+      "value": 2.5,
+      "brand": "Itambé"
+    },
+    {
+      "id": 4,
+      "description": "Batata Maior Palha 300gr",
+      "value": 15.2,
+      "brand": "Chipps"
+    },
+    { "id": 5, "description": "Nescau 400gr", "value": 8, "brand": "Nestlé" },
+    {
+      "id": 6,
+      "description": "Feijon parboilizado 5Kg",
+      "value": 45,
+      "brand": "Tio João 55",
+      "timestamp": "2023-04-20T22:37:09.735Z"
+    }
+  ]
+}
